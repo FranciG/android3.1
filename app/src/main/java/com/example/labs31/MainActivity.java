@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         this.textView = findViewById(R.id.textView);
     }
-
+//Menu is created
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
+//When selecting one item from the menu the background changes and the text from the textview also.
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
